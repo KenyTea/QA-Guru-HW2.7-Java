@@ -16,5 +16,8 @@ public class HomeWork3 {
 
         info.aboutStudent(human.GetName(), human.GetSurname(), human.GetAge(),
                 student.GetCourse(), student.GetGroup());
+
+        human.HumanWalk();
+        student.StudentLearn();
     }
 }

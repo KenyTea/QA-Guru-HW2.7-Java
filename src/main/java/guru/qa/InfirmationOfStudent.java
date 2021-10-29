@@ -11,7 +11,7 @@ public class InfirmationOfStudent {
         System.out.println("Student surname: " + surname);
         System.out.println("Student age: " + age);
         System.out.println("Student course number: " + course);
-        System.out.println("Student group name: " + group);
+        System.out.println("Student group name: " + group + "\n");
     }
 }
 

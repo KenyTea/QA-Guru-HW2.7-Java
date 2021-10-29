@@ -18,4 +18,8 @@ public class Student {
         this.group = group;
     }
 
+    public void StudentLearn(){
+        System.out.println("\nЯ лбюлю учиться :)!!!\n");
+    }
+
 }

@@ -28,4 +28,8 @@ public class Human {
         this.age = age;
     }
 
+    public void HumanWalk(){
+        System.out.println("\nЧеловек умеет ходить. То то то\n");
+    }
+
 }
