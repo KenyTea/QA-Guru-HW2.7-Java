@@ -29,7 +29,7 @@ public class Human {
     }
 
     public void HumanWalk(){
-        System.out.println("\nЧеловек умеет ходить. То то то\n");
+        System.out.println("\nЧеловек умеет ходить. Топ топ топ\n");
     }
 
 }
