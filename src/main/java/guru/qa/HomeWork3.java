@@ -8,16 +8,16 @@ public class HomeWork3 {
         Student student = new Student();
         InfirmationOfStudent info = new InfirmationOfStudent();
 
-        human.SetName("Алексей");
-        human.SetSurname("Васильев");
-        human.SetAge(39);
-        student.SetCourse(1);
-        student.SetGroup("QAGuru 9");
+        human.setName("Алексей");
+        human.setSurname("Васильев");
+        human.setAge(39);
+        student.setCourse(1);
+        student.setGroup("QAGuru 9");
 
-        info.aboutStudent(human.GetName(), human.GetSurname(), human.GetAge(),
-                student.GetCourse(), student.GetGroup());
+        info.aboutStudent(human.getName(), human.getSurname(), human.getAge(),
+                student.getCourse(), student.getGroup());
 
-        human.HumanWalk();
-        student.StudentLearn();
+        human.humanWalk();
+        student.studentLearn();
     }
 }

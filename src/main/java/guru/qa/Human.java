@@ -5,30 +5,30 @@ public class Human {
     private String surname;
     private int age;
 
-    public String GetName(){
+    public String getName(){
         return name;
     }
-    public void SetName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
 
-    public String GetSurname(){
+    public String getSurname(){
         return surname;
     }
-    public void SetSurname(String surname){
+    public void setSurname(String surname){
         this.surname = surname;
     }
 
 
-    public int GetAge(){
+    public int getAge(){
         return age;
     }
-    public void SetAge(int age){
+    public void setAge(int age){
         this.age = age;
     }
 
-    public void HumanWalk(){
+    public void humanWalk(){
         System.out.println("\nЧеловек умеет ходить. Топ топ топ\n");
     }
 

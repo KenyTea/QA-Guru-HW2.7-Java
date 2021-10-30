@@ -4,21 +4,21 @@ public class Student {
     private int course;
     private String group;
 
-    public int GetCourse(){
+    public int getCourse(){
         return course;
     }
-    public void SetCourse(int course){
+    public void setCourse(int course){
         this.course = course;
     }
 
-    public String GetGroup(){
+    public String getGroup(){
         return group;
     }
-    public void SetGroup(String group){
+    public void setGroup(String group){
         this.group = group;
     }
 
-    public void StudentLearn(){
+    public void studentLearn(){
         System.out.println("\nЯ лбюлю учиться :)!!!\n");
     }
 
