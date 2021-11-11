@@ -1,6 +1,6 @@
 package guru.qa;
 
-public class HomeWork3 {
+public class HomeWork7 {
 
     public static void main(String[] args) {
 
