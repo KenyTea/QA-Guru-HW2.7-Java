@@ -2,6 +2,14 @@ package guru.qa;
 
 public class HomeWork7 {
 
+    /*
+   Добавить конструкторы, геттеры, сеттеры.
+
+   Добавить статические данные к классам.
+
+   Попробовать поработать со статическими вложенными классами
+    * */
+
     public static void main(String[] args) {
 
         Human human = new Human();
